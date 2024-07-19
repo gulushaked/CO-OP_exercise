@@ -8,14 +8,20 @@ It performs authentication, collects various types of data (evidences), and prov
 
 Connectivity Test: Authenticates the user and tests the connectivity to the DummyJSON API.
 
+
 Collect Evidences: Collects three types of evidences:
 User's cart details
 List of posts
 List of posts including comments
+
+
 View Collected Evidences: Provides a method to view the collected evidences.
 
 *Dependencies*
+
+
 I used Python 3.12 version
+
 requests Pyhton package: Used for making HTTP requests to the DummyJSON API.
 
 *Usage*
