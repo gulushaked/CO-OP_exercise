@@ -67,7 +67,7 @@ class DummyApiPlugin(Plugin):
         collecting user's carts from DummyJSON
         :return: List of the user's carts
         """
-        url = self.base_url + f'/users/{self.user_id}/carts'
+        url = self.base_url + f'/users/6/carts'
         headers = {
             'Authorization': f'Bearer {self.token}',
             'Content-Type': 'application/json'}
